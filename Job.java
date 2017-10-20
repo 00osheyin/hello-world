@@ -1,6 +1,15 @@
+/**
+* Job is a module from Workshop 4 in ECM2414.
+*
+* @author  Owen She-Yin
+* @since   2017-10-20 
+*/
+
 public class Job implements Runnable {
 	private int jobNumber;
 	
+	/*
+	*/
 	Job (int jobNumber) {
 		this.jobNumber = jobNumber;
 	}
